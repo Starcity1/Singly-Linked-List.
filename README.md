@@ -19,19 +19,19 @@ USAGE ::
 - name_of_list.PrintatIndex(index) :: Prints the list's value at the index specified by the user.
 !Similar to arrays, the first index for any list is 0.
 
--name_of_list.Size() :: returns how many notes are on the list.
+- name_of_list.Size() :: returns how many notes are on the list.
 
--name_of_list.Append(user_value) :: Inserts a new node with a new value at the end of the list.
+- name_of_list.Append(user_value) :: Inserts a new node with a new value at the end of the list.
 
--name_of_list.Pop() :: Deletes the last node from your list. 
+- name_of_list.Pop() :: Deletes the last node from your list. 
 Sends error if user tries to delete a listless list.
 
--name_of_list.Push(user_value) :: Inserts a new node with a new value at the start of the list.
+- name_of_list.Push(user_value) :: Inserts a new node with a new value at the start of the list.
 
--name_of_list.ClearList() :: Entirely clears and frees all the memory created by the list.
+- name_of_list.ClearList() :: Entirely clears and frees all the memory created by the list.
 
--name_of_list.InsertNodeatIndex(user_value, <int>index) :: Inserts a value in front of the index
+- name_of_list.InsertNodeatIndex(user_value, <int>index) :: Inserts a value in front of the index
 given by the user. It will return an error if user tries to insert a Node on an out-of-bounds index.
 
--name_of_list.RemoveNodeatIndeX(<int>index) :: Removes and deletes memory from the node at the index specified by user.
+- name_of_list.RemoveNodeatIndeX(<int>index) :: Removes and deletes memory from the node at the index specified by user.
 It will return an error if user tries to remoce a Node on an out-of-bounds index.
