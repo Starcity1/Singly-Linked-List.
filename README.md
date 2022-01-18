@@ -35,3 +35,5 @@ given by the user. It will return an error if user tries to insert a Node on an 
 
 - name_of_list.RemoveNodeatIndeX(<int>index) :: Removes and deletes memory from the node at the index specified by user.
 It will return an error if user tries to remoce a Node on an out-of-bounds index.
+  
+- name_of_list.ChangeValueatIndex(user_value, <int>index) :: Changes the value of the node prescribed on the index.
