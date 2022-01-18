@@ -276,4 +276,10 @@ public:
         temp->next_ptr = next_Node;
 
     }
+    
+    void ChangeValueAtIndex(T user_value, int index) {
+        RemoveAtIndex(index);
+        InserteAtIndex(user_value, index);
+    }
+
 };
