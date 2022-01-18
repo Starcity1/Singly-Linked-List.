@@ -2,7 +2,7 @@ NAME :: SLList (Singly Linked List)
 
 AUTHOR :: David Rodriguez Sanchez
 
-VERSION :: 1.0.0
+VERSION :: 1.1.0
 
 DESC :: This is my take on how to create a new Singledly Linked List. 
 The code contains the basic structure of a Linked List in addition to some function methods
